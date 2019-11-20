@@ -21,7 +21,7 @@ spring:
 
 logging:
   level:
-    cn.zhzy.mapper: debug
+    com.zhzy.mapper: debug
 
 eureka:
   client: # 客户端进行Eureka注册的配置
@@ -35,7 +35,7 @@ eureka:
 
 info:
   app.name: springcloud-provider-product
-  company.name: zhzy
+  company.name: com.zhzy
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
 
@@ -79,7 +79,7 @@ eureka:
 
 info:
   app.name: springcloud-config-product-client
-  company.name: zhzy
+  company.name: com.zhzy
   build.artifactId: $project.artifactId$
   build.modelVersion: $project.modelVersion$
 
