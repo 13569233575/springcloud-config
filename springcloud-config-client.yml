@@ -17,7 +17,7 @@ eureka:
     defaultZone: http://admin:zhzy@localhost:7001/eureka
     
 info:
-  app.name: springcloud-config-client-dev
+  app.name: springcloud-config-client-dev2
   company.name: com.zhzy
 ---
 server:
@@ -34,5 +34,5 @@ eureka:
     defaultZone: http://admin:zhzy@localhost:7001/eureka
 
 info:
-  app.name: springcloud-config-client-dev
+  app.name: springcloud-config-client-dev2
   company.name: com.zhzy
