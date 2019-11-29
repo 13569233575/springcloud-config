@@ -4,7 +4,7 @@ spring:
         - dev
 ---
 server:
-  port: 8201
+  port: 8202
 
 spring:
   profiles: dev
@@ -21,7 +21,7 @@ info:
   company.name: com.zhzy
 ---
 server:
-  port: 8102
+  port: 8103
 
 spring:
   profiles: beta
