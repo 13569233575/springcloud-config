@@ -9,12 +9,16 @@ server:
 spring:
   profiles: dev
   application:
-      name: springcloud-config-test-client
+      name: springcloud-config-client
 
 eureka:
  client:
   service-url:
     defaultZone: http://admin:zhzy@localhost:7001/eureka
+    
+info:
+  app.name: springcloud-config-client-dev
+  company.name: com.zhzy
 ---
 server:
   port: 8102
@@ -22,9 +26,13 @@ server:
 spring:
   profiles: beta
   application:
-    name: springcloud-config-test-client
+    name: springcloud-config-client
 
 eureka:
  client:
   service-url:
     defaultZone: http://admin:zhzy@localhost:7001/eureka
+
+info:
+  app.name: springcloud-config-client-dev
+  company.name: com.zhzy
